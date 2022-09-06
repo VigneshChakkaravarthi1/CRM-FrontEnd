@@ -1,0 +1,54 @@
+[
+    {
+        "id":"1",
+        "subject":"SSL issue",
+        "status":"Client Response Pending",
+        "addedAt": "08-31-2022",
+        "history":[
+            {
+                "date":"20-10-10",
+                "message":"What is the status of the issue",
+                "messageBy":"Client"
+
+            },
+            {
+                "date":"20-10-10",
+                "message":"What is the status of the issue",
+                "messageBy":"Client"
+
+            },
+            {
+                "date":"20-10-10",
+                "message":"What is the status of the issue",
+                "messageBy":"Client"
+
+            }
+            
+        ]
+    },
+
+    {
+        "id":"2",
+        "subject":"Certificate issue",
+        "status":"Client Response Pending",
+        "addedAt": "08-31-2022"
+    },
+    {
+        "id":"3",
+        "subject":"Access Issue",
+        "status":"Client Response Pending",
+        "addedAt": "08-31-2022"
+    },
+    {
+        "id":"4",
+        "subject":"Password reset",
+        "status":"Client Response Pending",
+        "addedAt": "08-31-2022"
+    },
+    {
+        "id":"5",
+        "subject":"New user set up",
+        "status":"Client Response Pending",
+        "addedAt": "08-31-2022"
+    }
+]
