@@ -35,8 +35,5 @@ export const PasswordReset = ({handleOnChange,handleOnResetSubmit,formSwitcher,e
   )
 }
 PasswordReset.propTypes={
-    handleOnChange:propTypes.func.isRequired,
-    handleOnResetSubmit:propTypes.func.isRequired,
-    email :propTypes.string.isRequired,
- 
+
 }

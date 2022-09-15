@@ -8,9 +8,12 @@ import { useHistory } from 'react-router-dom'
 export const Header = () => {
   const history =useHistory()
   const logMeOut=()=>{
+    sessionStorage.removeItem("accessJWT")
     history.push("/")
+
     
   }
+  
   return (
     <Navbar collapseOnSelect bg="info" varaint="dark" expand="md">
         <Navbar.Brand> 
@@ -22,7 +25,7 @@ export const Header = () => {
             <Nav className='ml-auto' >
               <Nav.Link href="/dashboard">Dashboard</Nav.Link>
               <Nav.Link href="tickets">Tickets</Nav.Link>
-            <Nav.Link href="/">Logout</Nav.Link>
+            <Nav.Link onClick={logMeOut}>Logout</Nav.Link>
               
                 
             </Nav>
